@@ -18,7 +18,7 @@ namespace AppMultTenant.Controllers
            // var contacts = await context.Contacts.ToListAsync();
             var contacts = await context.Contacts.FromSqlRaw($"GetContactList").ToListAsync();
 
-            //GetContactList 
+            //GetContactList sdsdfsfd
 
             
 
